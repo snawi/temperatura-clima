@@ -1,0 +1,296 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);;
+}
+
+.contenedor h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 0 0 0; 
+  
+}
+
+form p{
+  color: #311B92 ;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px 0;
+  font-size: 15px;
+ 
+  background: linear-gradient(to right, #f4e908, #f5e52b, #f5e13d, #f5dd4c, #f4d959);
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent; 
+
+}
+
+.formulario{
+  width: 32%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.formulario .caja{
+  
+  width: 95.5%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.formulario .caja:focus{
+  outline: none;
+}
+
+.formulario .select{
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.formulario .select:focus{
+  outline: none;
+}
+
+.boton1{
+  margin-top: 10px;
+}
+
+.boton{
+  
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  
+  background: rgb(2,0,36);
+  /* background-image: linear-gradient(to right, #b0b4b5, #99b7c0, #7eb9cd, #5bbbdb, #12bceb);background-image: linear-gradient(to right, #c2de06, #5de26c, #00dcb0, #00cede, #12bceb); */
+  background: linear-gradient(90deg, rgba(255,175,0,1) 15%, rgba(9,49,121,1) 54%, rgba(2,0,36,1) 96%, rgba(2,0,36,1) 100%);
+
+}
+
+.boton:hover{
+  background: linear-gradient(90deg, rgba(255,175,0,1) 0%, rgba(108,107,131,1) 52%, rgba(2,0,36,1) 100%);
+
+
+}
+
+
+
+/* mensaje de error */
+
+.mensaje1{
+  margin: 8px 0;
+  padding: 5px;
+  background-image: linear-gradient(to right, #dae6e9, #ccd8e6, #cdc7dd, #d5b5c7, #d6a5a5);
+  color: #B34242;
+  
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 4px;
+}
+
+.errorMedio{
+  font-weight: bold;
+}
+
+
+/* mensajeNumeroConsulta */
+
+/* .divResultado{
+  background-color: #F3FEFF;
+  width: 25%; 
+  margin: 0 auto;
+  padding: 5% 0;
+  border-radius: 2000px;
+} */
+
+.mensajeNumeroConsulta{
+  
+  text-align: center;
+  font-size: 65px;
+  padding: 60px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(to right, #f4e908, #f5e52b, #f5e13d, #f5dd4c, #f4d959);
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+
+
+.tempMaxima{
+  text-align: center;
+  color: wheat;
+  font-weight: bold;
+  
+}
+
+
+/* css del spinner */
+
+.sk-fading-circle {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.sk-fading-circle .sk-circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sk-fading-circle .sk-circle:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  background-color: #333;
+  border-radius: 100%;
+  -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+          animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+}
+.sk-fading-circle .sk-circle2 {
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+.sk-fading-circle .sk-circle3 {
+  -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+.sk-fading-circle .sk-circle4 {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.sk-fading-circle .sk-circle5 {
+  -webkit-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+.sk-fading-circle .sk-circle6 {
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+.sk-fading-circle .sk-circle7 {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.sk-fading-circle .sk-circle8 {
+  -webkit-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+          transform: rotate(210deg);
+}
+.sk-fading-circle .sk-circle9 {
+  -webkit-transform: rotate(240deg);
+      -ms-transform: rotate(240deg);
+          transform: rotate(240deg);
+}
+.sk-fading-circle .sk-circle10 {
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.sk-fading-circle .sk-circle11 {
+  -webkit-transform: rotate(300deg);
+      -ms-transform: rotate(300deg);
+          transform: rotate(300deg); 
+}
+.sk-fading-circle .sk-circle12 {
+  -webkit-transform: rotate(330deg);
+      -ms-transform: rotate(330deg);
+          transform: rotate(330deg); 
+}
+.sk-fading-circle .sk-circle2:before {
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s; 
+}
+.sk-fading-circle .sk-circle3:before {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s; 
+}
+.sk-fading-circle .sk-circle4:before {
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s; 
+}
+.sk-fading-circle .sk-circle5:before {
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s; 
+}
+.sk-fading-circle .sk-circle6:before {
+  -webkit-animation-delay: -0.7s;
+          animation-delay: -0.7s; 
+}
+.sk-fading-circle .sk-circle7:before {
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s; 
+}
+.sk-fading-circle .sk-circle8:before {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s; 
+}
+.sk-fading-circle .sk-circle9:before {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+.sk-fading-circle .sk-circle10:before {
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+.sk-fading-circle .sk-circle11:before {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.sk-fading-circle .sk-circle12:before {
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+
+@-webkit-keyframes sk-circleFadeDelay {
+  0%, 39%, 100% { opacity: 0; }
+  40% { opacity: 1; }
+}
+
+@keyframes sk-circleFadeDelay {
+  0%, 39%, 100% { opacity: 0; }
+  40% { opacity: 1; } 
+}
+
+
+
+
+

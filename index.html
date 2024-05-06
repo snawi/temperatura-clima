@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+
+
+    <div class="contenedor">
+      <h1>Busca el clima</h1>
+
+      <div class="divResultado" id="resultados" ></div>
+
+        <form class="formulario" id="formulario">
+          <p>agrega tu ciudad y pais, el resultado se mostrara aqui</p>
+
+          <input type="text" id="ciudad" class="caja">
+
+          <select  id="pais" class="select" >
+            <option value="--seleccione--"></option>
+             <option value="colombia">colombia</option> 
+            <option value="argentina">argentina</option>
+            <option value="brasil">brasil</option>
+          </select>
+
+          <div class="boton1">
+            <input type="submit" class="boton" value="obtener clima">
+          </div>
+         
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
